@@ -1,0 +1,436 @@
+{
+ "id": 4,
+ "name": "Templo das Sombras",
+ "subtitle": "Velas para almas inquietas",
+ "theme": "shadow_temple",
+ "music": "temple",
+ "boss_music": "boss",
+ "ambient": "wind",
+ "weather": "spirit",
+ "width": 7600,
+ "kill_y": 420,
+ "player_start": [
+  120,
+  0
+ ],
+ "story": "No Templo das Sombras, velas queimam por almas inquietas. Lá repousa o pergaminho que revela quem destruiu o clã.",
+ "ground": [
+  [
+   0,
+   5450
+  ],
+  [
+   5950,
+   7600
+  ]
+ ],
+ "blocks": [
+  [
+   800,
+   -50,
+   150,
+   50,
+   "stone"
+  ],
+  [
+   950,
+   -100,
+   650,
+   100,
+   "stone"
+  ],
+  [
+   1600,
+   -50,
+   120,
+   50,
+   "stone"
+  ],
+  [
+   3500,
+   -330,
+   1400,
+   60,
+   "wall"
+  ],
+  [
+   4200,
+   -250,
+   220,
+   204,
+   "stone"
+  ]
+ ],
+ "platforms": [
+  [
+   5480,
+   -60,
+   140,
+   "stone"
+  ],
+  [
+   5700,
+   -120,
+   140,
+   "stone"
+  ],
+  [
+   5860,
+   -60,
+   110,
+   "stone"
+  ],
+  [
+   2350,
+   -120,
+   160,
+   "stone"
+  ]
+ ],
+ "secrets": [
+  [
+   3150,
+   0,
+   300,
+   220
+  ]
+ ],
+ "enemies": [
+  {
+   "id": "warrior_monk",
+   "x": 1250,
+   "y": -100,
+   "facing": -1,
+   "patrol": [
+    1050,
+    1500
+   ]
+  },
+  {
+   "id": "assassin_ninja",
+   "x": 2200,
+   "y": 0,
+   "facing": -1
+  },
+  {
+   "id": "spear_guardian",
+   "x": 2650,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    2500,
+    2800
+   ]
+  },
+  {
+   "id": "twin_samurai",
+   "x": 3900,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    3750,
+    4100
+   ]
+  },
+  {
+   "id": "shadow_warrior",
+   "x": 4700,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    4600,
+    4850
+   ]
+  },
+  {
+   "id": "warrior_monk",
+   "x": 5200,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    5050,
+    5350
+   ]
+  },
+  {
+   "id": "assassin_ninja",
+   "x": 6100,
+   "y": 0,
+   "facing": -1
+  }
+ ],
+ "checkpoints": [
+  [
+   1750,
+   0
+  ],
+  [
+   3420,
+   0
+  ],
+  [
+   6000,
+   0
+  ]
+ ],
+ "pickups": [
+  [
+   "coin",
+   980,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1040,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1100,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1160,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1220,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1280,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1340,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1400,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1460,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   1520,
+   -140,
+   1
+  ],
+  [
+   "coin",
+   2370,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   2430,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   2490,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   4230,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4290,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4350,
+   -12,
+   1
+  ],
+  [
+   "elixir",
+   3080,
+   -10
+  ],
+  [
+   "scroll",
+   3150,
+   -10,
+   80
+  ],
+  [
+   "coin",
+   3220,
+   -10,
+   5
+  ],
+  [
+   "coin",
+   3260,
+   -10,
+   5
+  ],
+  [
+   "onigiri",
+   5000,
+   -10
+  ],
+  [
+   "shuriken",
+   5720,
+   -160,
+   5
+  ]
+ ],
+ "decor": [
+  [
+   "torii",
+   300,
+   0,
+   1.0
+  ],
+  [
+   "lantern",
+   600,
+   0
+  ],
+  [
+   "statue",
+   1100,
+   -100,
+   1.0
+  ],
+  [
+   "candles",
+   1300,
+   -100
+  ],
+  [
+   "statue",
+   1450,
+   -100,
+   1.0
+  ],
+  [
+   "pagoda",
+   2000,
+   0,
+   0.8
+  ],
+  [
+   "candles",
+   2700,
+   0
+  ],
+  [
+   "statue",
+   2900,
+   0,
+   1.1
+  ],
+  [
+   "candles",
+   3700,
+   0
+  ],
+  [
+   "statue",
+   4000,
+   0,
+   0.9
+  ],
+  [
+   "hanging_lantern",
+   4300,
+   -240
+  ],
+  [
+   "candles",
+   4600,
+   0
+  ],
+  [
+   "bell",
+   5150,
+   0,
+   0.9
+  ],
+  [
+   "statue",
+   6300,
+   0,
+   1.2
+  ],
+  [
+   "candles",
+   6600,
+   0
+  ],
+  [
+   "statue",
+   6900,
+   0,
+   1.2
+  ],
+  [
+   "candles",
+   7200,
+   0
+  ],
+  [
+   "torii",
+   7380,
+   0,
+   1.1
+  ]
+ ],
+ "front_decor": [
+  [
+   "candles",
+   2100,
+   0
+  ],
+  [
+   "grass",
+   5300,
+   0
+  ]
+ ],
+ "boss": {
+  "id": "boss_guardian",
+  "x": 7000,
+  "arena": [
+   6240,
+   7560
+  ],
+  "intro": "\"As sombras deste templo não pertencem a você, filho da Lua Velada.\"",
+  "defeat": "O pergaminho revela o nome: Ryūga — o Mestre do Dragão, antigo mestre do Clã da Lua Velada."
+ },
+ "exit": [
+  7470,
+  0
+ ]
+}

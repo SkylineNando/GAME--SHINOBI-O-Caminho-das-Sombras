@@ -1,0 +1,509 @@
+{
+ "id": 3,
+ "name": "Castelo do Samurai",
+ "subtitle": "Muralhas de pedra, corações de ferro",
+ "theme": "castle",
+ "music": "castle",
+ "boss_music": "boss",
+ "ambient": "wind",
+ "weather": "leaves",
+ "width": 7600,
+ "kill_y": 420,
+ "player_start": [
+  120,
+  0
+ ],
+ "story": "O Castelo do Samurai guarda os segredos do senhor da guerra. Muralhas, torres e guardas de elite separam Kage do General.",
+ "ground": [
+  [
+   0,
+   5300
+  ],
+  [
+   5500,
+   7600
+  ]
+ ],
+ "blocks": [
+  [
+   1300,
+   -120,
+   700,
+   120,
+   "wall"
+  ],
+  [
+   3700,
+   -330,
+   1000,
+   80,
+   "wood_wall"
+  ],
+  [
+   4700,
+   -250,
+   200,
+   204,
+   "wood_wall"
+  ]
+ ],
+ "platforms": [
+  [
+   1230,
+   -120,
+   72,
+   "wood"
+  ],
+  [
+   3300,
+   -130,
+   170,
+   "wood"
+  ],
+  [
+   3400,
+   -260,
+   170,
+   "wood"
+  ],
+  [
+   5320,
+   -60,
+   160,
+   "roof"
+  ],
+  [
+   6000,
+   -150,
+   190,
+   "roof"
+  ],
+  [
+   2300,
+   -110,
+   160,
+   "roof"
+  ]
+ ],
+ "ladders": [
+  [
+   1265,
+   -120,
+   0
+  ],
+  [
+   3340,
+   -130,
+   0
+  ],
+  [
+   3450,
+   -260,
+   -130
+  ]
+ ],
+ "enemies": [
+  {
+   "id": "armored_guard",
+   "x": 800,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    650,
+    1000
+   ]
+  },
+  {
+   "id": "tower_archer",
+   "x": 1700,
+   "y": -120,
+   "facing": -1,
+   "patrol": [
+    1690,
+    1710
+   ]
+  },
+  {
+   "id": "elite_spearman",
+   "x": 1550,
+   "y": -120,
+   "facing": -1,
+   "patrol": [
+    1420,
+    1640
+   ]
+  },
+  {
+   "id": "heavy_samurai",
+   "x": 2650,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    2480,
+    2850
+   ]
+  },
+  {
+   "id": "tower_archer",
+   "x": 3480,
+   "y": -260,
+   "facing": -1,
+   "patrol": [
+    3470,
+    3490
+   ]
+  },
+  {
+   "id": "infiltrator",
+   "x": 4100,
+   "y": 0,
+   "facing": -1
+  },
+  {
+   "id": "armored_guard",
+   "x": 4420,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    4250,
+    4600
+   ]
+  },
+  {
+   "id": "elite_spearman",
+   "x": 5800,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    5650,
+    5950
+   ]
+  },
+  {
+   "id": "tower_archer",
+   "x": 6090,
+   "y": -150,
+   "facing": -1,
+   "patrol": [
+    6080,
+    6100
+   ]
+  },
+  {
+   "id": "heavy_samurai",
+   "x": 1100,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    1050,
+    1180
+   ]
+  }
+ ],
+ "vantage": [
+  [
+   1700,
+   -120
+  ],
+  [
+   3480,
+   -260
+  ],
+  [
+   6090,
+   -150
+  ]
+ ],
+ "checkpoints": [
+  [
+   2080,
+   0
+  ],
+  [
+   3640,
+   0
+  ],
+  [
+   5000,
+   0
+  ]
+ ],
+ "pickups": [
+  [
+   "coin",
+   1350,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1410,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1470,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1530,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1590,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1650,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1710,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1770,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1830,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1890,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1950,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   2320,
+   -150,
+   1
+  ],
+  [
+   "coin",
+   2380,
+   -150,
+   1
+  ],
+  [
+   "coin",
+   2440,
+   -150,
+   1
+  ],
+  [
+   "coin",
+   3420,
+   -300,
+   1
+  ],
+  [
+   "coin",
+   3480,
+   -300,
+   1
+  ],
+  [
+   "coin",
+   3540,
+   -300,
+   1
+  ],
+  [
+   "coin",
+   4720,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4780,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4840,
+   -12,
+   1
+  ],
+  [
+   "onigiri",
+   3000,
+   -10
+  ],
+  [
+   "shuriken",
+   3360,
+   -170,
+   5
+  ],
+  [
+   "scroll",
+   5400,
+   -100,
+   60
+  ],
+  [
+   "elixir",
+   4800,
+   -10
+  ]
+ ],
+ "decor": [
+  [
+   "pine",
+   300,
+   0,
+   1.1
+  ],
+  [
+   "lantern",
+   550,
+   0
+  ],
+  [
+   "rocks",
+   900,
+   0
+  ],
+  [
+   "tower",
+   1650,
+   -120,
+   1.0
+  ],
+  [
+   "pine",
+   2250,
+   0,
+   1.0
+  ],
+  [
+   "lantern",
+   2500,
+   0
+  ],
+  [
+   "bell",
+   2950,
+   0,
+   0.9
+  ],
+  [
+   "tower",
+   3420,
+   0,
+   1.15
+  ],
+  [
+   "wall_window",
+   3900,
+   0
+  ],
+  [
+   "wall_window",
+   4200,
+   0
+  ],
+  [
+   "banner",
+   4050,
+   0
+  ],
+  [
+   "hanging_lantern",
+   4350,
+   -200
+  ],
+  [
+   "wall_window",
+   4550,
+   0
+  ],
+  [
+   "pine",
+   5100,
+   0
+  ],
+  [
+   "tower",
+   6090,
+   0,
+   0.8
+  ],
+  [
+   "banner",
+   6500,
+   0
+  ],
+  [
+   "lantern",
+   6700,
+   0
+  ],
+  [
+   "banner",
+   7000,
+   0
+  ],
+  [
+   "lantern",
+   7300,
+   0
+  ]
+ ],
+ "front_decor": [
+  [
+   "grass",
+   400,
+   0
+  ],
+  [
+   "grass",
+   2400,
+   0
+  ],
+  [
+   "grass",
+   6300,
+   0
+  ]
+ ],
+ "boss": {
+  "id": "boss_general",
+  "x": 7150,
+  "arena": [
+   6400,
+   7560
+  ],
+  "intro": "\"Sou a muralha que protege meu senhor. Ninguém passa.\"",
+  "defeat": "\"O Templo... o Guardião protege o pergaminho com o nome do traidor...\""
+ },
+ "exit": [
+  7460,
+  0
+ ]
+}

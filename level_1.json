@@ -1,0 +1,595 @@
+{
+ "id": 1,
+ "name": "Aldeia Destruída",
+ "subtitle": "As cinzas do Clã da Lua Velada",
+ "theme": "village",
+ "music": "village",
+ "boss_music": "boss",
+ "ambient": "wind",
+ "weather": "petals",
+ "width": 6800,
+ "kill_y": 420,
+ "player_start": [
+  140,
+  0
+ ],
+ "story": "Do vilarejo de Kage restam cinzas. Os soldados do senhor da guerra ainda patrulham as ruínas. Siga a trilha de fumaça até o Capitão da Guarda.",
+ "ground": [
+  [
+   0,
+   1400
+  ],
+  [
+   1560,
+   2600
+  ],
+  [
+   3100,
+   6800
+  ]
+ ],
+ "water": [
+  [
+   1400,
+   1560
+  ],
+  [
+   2600,
+   3100
+  ]
+ ],
+ "blocks": [
+  [
+   3500,
+   -260,
+   320,
+   214,
+   "house"
+  ],
+  [
+   4400,
+   -80,
+   400,
+   80,
+   "rock"
+  ]
+ ],
+ "platforms": [
+  [
+   600,
+   -118,
+   200,
+   "roof"
+  ],
+  [
+   2050,
+   -150,
+   240,
+   "roof"
+  ],
+  [
+   2600,
+   0,
+   500,
+   "bridge"
+  ],
+  [
+   1000,
+   -200,
+   140,
+   "roof"
+  ]
+ ],
+ "ladders": [
+  [
+   2090,
+   -150,
+   0
+  ]
+ ],
+ "hazards": [
+  {
+   "kind": "spikes",
+   "x": 4980,
+   "y": 0,
+   "w": 120
+  }
+ ],
+ "enemies": [
+  {
+   "id": "sword_soldier",
+   "x": 900,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    720,
+    1150
+   ]
+  },
+  {
+   "id": "spear_soldier",
+   "x": 1900,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    1700,
+    2250
+   ]
+  },
+  {
+   "id": "village_archer",
+   "x": 2200,
+   "y": -150,
+   "facing": -1,
+   "patrol": [
+    2190,
+    2210
+   ]
+  },
+  {
+   "id": "shield_soldier",
+   "x": 2850,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    2700,
+    3000
+   ]
+  },
+  {
+   "id": "sword_soldier",
+   "x": 3300,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    3150,
+    3450
+   ]
+  },
+  {
+   "id": "guard_sergeant",
+   "x": 4060,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    3900,
+    4250
+   ]
+  },
+  {
+   "id": "village_archer",
+   "x": 4640,
+   "y": -80,
+   "facing": -1,
+   "patrol": [
+    4630,
+    4650
+   ]
+  },
+  {
+   "id": "spear_soldier",
+   "x": 5150,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    5060,
+    5320
+   ]
+  },
+  {
+   "id": "shield_soldier",
+   "x": 5380,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    5250,
+    5480
+   ]
+  }
+ ],
+ "vantage": [
+  [
+   2200,
+   -150
+  ],
+  [
+   4640,
+   -80
+  ]
+ ],
+ "checkpoints": [
+  [
+   1650,
+   0
+  ],
+  [
+   3180,
+   0
+  ],
+  [
+   5520,
+   0
+  ]
+ ],
+ "pickups": [
+  [
+   "coin",
+   400,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   460,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   520,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   580,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   640,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   620,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   680,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   740,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   1420,
+   -60,
+   1
+  ],
+  [
+   "coin",
+   1460,
+   -131,
+   1
+  ],
+  [
+   "coin",
+   1500,
+   -131,
+   1
+  ],
+  [
+   "coin",
+   1540,
+   -60,
+   1
+  ],
+  [
+   "coin",
+   2650,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2710,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2770,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2830,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2890,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2950,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   3010,
+   -50,
+   1
+  ],
+  [
+   "onigiri",
+   3660,
+   -10
+  ],
+  [
+   "shuriken",
+   2240,
+   -190,
+   5
+  ],
+  [
+   "scroll",
+   1060,
+   -240,
+   40
+  ],
+  [
+   "coin",
+   3540,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   3600,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   3660,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   3720,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   3780,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4420,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   4480,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   4540,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   4600,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   4660,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   4720,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   4780,
+   -120,
+   1
+  ],
+  [
+   "elixir",
+   5600,
+   -20
+  ]
+ ],
+ "decor": [
+  [
+   "torii",
+   300,
+   0,
+   1.0
+  ],
+  [
+   "lantern",
+   520,
+   0
+  ],
+  [
+   "burnt_house",
+   700,
+   0,
+   0.95
+  ],
+  [
+   "smoke",
+   760,
+   -120,
+   1.0
+  ],
+  [
+   "cherry",
+   1180,
+   0,
+   1.0
+  ],
+  [
+   "house",
+   1070,
+   0,
+   0.75
+  ],
+  [
+   "pine",
+   1700,
+   0,
+   0.9
+  ],
+  [
+   "burnt_house",
+   2170,
+   0,
+   1.0
+  ],
+  [
+   "smoke",
+   2240,
+   -170,
+   1.2
+  ],
+  [
+   "pine",
+   2480,
+   0,
+   1.0
+  ],
+  [
+   "lantern",
+   3220,
+   0
+  ],
+  [
+   "burnt_house",
+   3660,
+   0,
+   1.25
+  ],
+  [
+   "smoke",
+   3720,
+   -200,
+   1.4
+  ],
+  [
+   "cherry",
+   4150,
+   0,
+   1.1
+  ],
+  [
+   "fence",
+   4600,
+   -80
+  ],
+  [
+   "dead_tree",
+   4920,
+   0
+  ],
+  [
+   "banner",
+   5300,
+   0
+  ],
+  [
+   "lantern",
+   5720,
+   0
+  ],
+  [
+   "hanging_lantern",
+   6000,
+   -150
+  ],
+  [
+   "banner",
+   6250,
+   0
+  ],
+  [
+   "lantern",
+   6450,
+   0
+  ],
+  [
+   "cherry",
+   6600,
+   0,
+   1.2
+  ],
+  [
+   "rocks",
+   5900,
+   0
+  ]
+ ],
+ "front_decor": [
+  [
+   "grass",
+   260,
+   0
+  ],
+  [
+   "grass",
+   1320,
+   0
+  ],
+  [
+   "grass",
+   3360,
+   0
+  ],
+  [
+   "grass",
+   5050,
+   0
+  ],
+  [
+   "grass",
+   6150,
+   0
+  ]
+ ],
+ "boss": {
+  "id": "boss_captain",
+  "x": 6350,
+  "arena": [
+   5680,
+   6760
+  ],
+  "intro": "\"Um rato do Clã da Lua Velada sobreviveu? Vou terminar o serviço!\"",
+  "defeat": "Antes de cair, o Capitão murmura: \"O Mestre Caçador... ele sabe quem deu a ordem...\""
+ },
+ "exit": [
+  6680,
+  0
+ ]
+}

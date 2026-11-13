@@ -1,0 +1,42 @@
+{
+ "katana_tiers": [
+  {
+   "name": "Katana do Clã",
+   "mult": 1.0,
+   "trail": "#111111"
+  },
+  {
+   "name": "Lâmina Tamahagane",
+   "mult": 1.25,
+   "trail": "#2a2a2a"
+  },
+  {
+   "name": "Lua Crescente",
+   "mult": 1.5,
+   "trail": "#4d5a6b"
+  },
+  {
+   "name": "Kage-no-Tsurugi",
+   "mult": 1.9,
+   "trail": "#8e1b14"
+  }
+ ],
+ "names": {
+  "katana": "Katana",
+  "tanto": "Tantō",
+  "shuriken": "Shuriken",
+  "kunai": "Kunai"
+ },
+ "projectiles": {
+  "shuriken": {
+   "speed": 720,
+   "damage_key": "dmg_shuriken",
+   "pierce": 0
+  },
+  "kunai": {
+   "speed": 900,
+   "damage_key": "dmg_kunai",
+   "pierce": 1
+  }
+ }
+}

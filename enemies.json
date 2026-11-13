@@ -1,0 +1,1718 @@
+{
+ "sword_soldier": {
+  "name": "Soldado com Espada",
+  "archetype": "ashigaru",
+  "skin": "sword_soldier",
+  "sheet": "ashigaru",
+  "hp": 40,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 1.4,
+  "xp": 18,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ]
+ },
+ "spear_soldier": {
+  "name": "Soldado com Lança",
+  "archetype": "ashigaru",
+  "skin": "ashigaru",
+  "sheet": "ashigaru",
+  "hp": 42,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 100,
+  "cooldown": 1.4,
+  "xp": 20,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -72,
+     112,
+     28
+    ],
+    "damage": 12,
+    "range": 100,
+    "kind": "light",
+    "kb": [
+     230,
+     -60
+    ],
+    "lunge": 100,
+    "active": 0.12,
+    "weight": 3
+   }
+  ]
+ },
+ "shield_soldier": {
+  "name": "Patrulheiro com Escudo",
+  "archetype": "ashigaru",
+  "skin": "shield_soldier",
+  "sheet": "ashigaru",
+  "hp": 50,
+  "speed": 60,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.6,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 1.4,
+  "xp": 24,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   }
+  ],
+  "guard_limit": 3
+ },
+ "village_archer": {
+  "name": "Arqueiro",
+  "archetype": "archer",
+  "skin": "archer",
+  "sheet": "archer",
+  "hp": 30,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 520,
+  "react": 0.7,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 2.0,
+  "xp": 22,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "shot",
+    "anim": "bow_draw",
+    "then": "bow_shoot",
+    "aim": "target",
+    "range": 640,
+    "projectile": {
+     "kind": "arrow",
+     "speed": 720,
+     "gravity": 220,
+     "damage": 10,
+     "lead": 0.6,
+     "sfx": "arrow"
+    }
+   },
+   {
+    "name": "bash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     56,
+     60
+    ],
+    "damage": 6,
+    "range": 60,
+    "kind": "light",
+    "kb": [
+     260,
+     -120
+    ],
+    "lunge": 40,
+    "active": 0.1,
+    "weight": 1.0
+   }
+  ],
+  "flee_range": 170,
+  "max_range": 520,
+  "patrol_span": 0
+ },
+ "guard_sergeant": {
+  "name": "Capitão da Guarda (sargento)",
+  "archetype": "ashigaru",
+  "skin": "sergeant",
+  "sheet": "ashigaru",
+  "hp": 80,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.25,
+  "dodge": 0.0,
+  "armor": 0.1,
+  "poise": 15,
+  "attack_range": 100,
+  "cooldown": 1.4,
+  "xp": 40,
+  "coins": [
+   5,
+   9
+  ],
+  "attacks": [
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -72,
+     112,
+     28
+    ],
+    "damage": 12,
+    "range": 100,
+    "kind": "light",
+    "kb": [
+     230,
+     -60
+    ],
+    "lunge": 100,
+    "active": 0.12,
+    "weight": 3
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -96,
+     86,
+     96
+    ],
+    "damage": 20,
+    "range": 74,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   }
+  ]
+ },
+ "camo_patrol": {
+  "name": "Patrulheiro Camuflado",
+  "archetype": "ashigaru",
+  "skin": "camo_soldier",
+  "sheet": "ashigaru",
+  "hp": 45,
+  "speed": 80,
+  "run_speed": 180,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 1.4,
+  "xp": 24,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ],
+  "camo": true
+ },
+ "hidden_archer": {
+  "name": "Arqueiro Escondido",
+  "archetype": "archer",
+  "skin": "hidden_archer",
+  "sheet": "archer",
+  "hp": 34,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 560,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 1.9,
+  "xp": 26,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "shot",
+    "anim": "bow_draw",
+    "then": "bow_shoot",
+    "aim": "target",
+    "range": 640,
+    "projectile": {
+     "kind": "arrow",
+     "speed": 720,
+     "gravity": 220,
+     "damage": 10,
+     "lead": 0.6,
+     "sfx": "arrow"
+    }
+   },
+   {
+    "name": "bash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     56,
+     60
+    ],
+    "damage": 6,
+    "range": 60,
+    "kind": "light",
+    "kb": [
+     260,
+     -120
+    ],
+    "lunge": 40,
+    "active": 0.1,
+    "weight": 1.0
+   }
+  ],
+  "camo": true,
+  "flee_range": 170,
+  "max_range": 560,
+  "patrol_span": 0
+ },
+ "twin_blade_ninja": {
+  "name": "Ninja de Duas Espadas",
+  "archetype": "rival_ninja",
+  "skin": "rival_ninja",
+  "sheet": "rival_ninja",
+  "hp": 55,
+  "speed": 120,
+  "run_speed": 270,
+  "sight": 340,
+  "react": 0.35,
+  "aggression": 0.75,
+  "defense": 0.1,
+  "dodge": 0.3,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 70,
+  "cooldown": 1.0,
+  "xp": 35,
+  "coins": [
+   3,
+   7
+  ],
+  "attacks": [
+   {
+    "name": "dual",
+    "anim": "dual_slash",
+    "rect": [
+     0,
+     -82,
+     76,
+     62
+    ],
+    "damage": 9,
+    "range": 70,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 160,
+    "active": 0.08,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ],
+  "dodge_speed": 360
+ },
+ "trapper": {
+  "name": "Soldado com Armadilhas",
+  "archetype": "ashigaru",
+  "skin": "trapper",
+  "sheet": "ashigaru",
+  "hp": 45,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 60,
+  "cooldown": 1.4,
+  "xp": 28,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ],
+  "trapper": true
+ },
+ "ninja_hunter": {
+  "name": "Caçador de Ninjas",
+  "archetype": "rival_ninja",
+  "skin": "ninja_hunter",
+  "sheet": "rival_ninja",
+  "hp": 70,
+  "speed": 110,
+  "run_speed": 250,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.7,
+  "defense": 0.1,
+  "dodge": 0.25,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 150,
+  "cooldown": 1.4,
+  "xp": 45,
+  "coins": [
+   4,
+   8
+  ],
+  "attacks": [
+   {
+    "name": "chain",
+    "anim": "chain_swing",
+    "rect": [
+     10,
+     -86,
+     160,
+     40
+    ],
+    "damage": 11,
+    "range": 150,
+    "kind": "light",
+    "kb": [
+     220,
+     -60
+    ],
+    "lunge": 0,
+    "active": 0.16,
+    "weight": 2,
+    "sfx": "chain"
+   },
+   {
+    "name": "dual",
+    "anim": "dual_slash",
+    "rect": [
+     0,
+     -82,
+     76,
+     62
+    ],
+    "damage": 9,
+    "range": 70,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 160,
+    "active": 0.08,
+    "weight": 3
+   }
+  ],
+  "ambush": true
+ },
+ "armored_guard": {
+  "name": "Guarda de Armadura",
+  "archetype": "ashigaru",
+  "skin": "armored_guard",
+  "sheet": "ashigaru",
+  "hp": 75,
+  "speed": 60,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.3,
+  "dodge": 0.0,
+  "armor": 0.25,
+  "poise": 12,
+  "attack_range": 66,
+  "cooldown": 1.4,
+  "xp": 34,
+  "coins": [
+   3,
+   7
+  ],
+  "attacks": [
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -96,
+     86,
+     96
+    ],
+    "damage": 20,
+    "range": 74,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   }
+  ]
+ },
+ "elite_spearman": {
+  "name": "Lanceiro de Elite",
+  "archetype": "ashigaru",
+  "skin": "elite_spearman",
+  "sheet": "ashigaru",
+  "hp": 80,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.25,
+  "dodge": 0.0,
+  "armor": 0.2,
+  "poise": 12,
+  "attack_range": 100,
+  "cooldown": 1.4,
+  "xp": 38,
+  "coins": [
+   3,
+   7
+  ],
+  "attacks": [
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -72,
+     112,
+     28
+    ],
+    "damage": 12,
+    "range": 100,
+    "kind": "light",
+    "kb": [
+     230,
+     -60
+    ],
+    "lunge": 100,
+    "active": 0.12,
+    "weight": 3
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -96,
+     86,
+     96
+    ],
+    "damage": 20,
+    "range": 74,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   }
+  ]
+ },
+ "tower_archer": {
+  "name": "Arqueiro de Torre",
+  "archetype": "archer",
+  "skin": "tower_archer",
+  "sheet": "archer",
+  "hp": 40,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 640,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.15,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 1.7,
+  "xp": 32,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "shot",
+    "anim": "bow_draw",
+    "then": "bow_shoot",
+    "aim": "target",
+    "range": 640,
+    "projectile": {
+     "kind": "arrow",
+     "speed": 720,
+     "gravity": 220,
+     "damage": 10,
+     "lead": 0.6,
+     "sfx": "arrow"
+    }
+   },
+   {
+    "name": "bash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     56,
+     60
+    ],
+    "damage": 6,
+    "range": 60,
+    "kind": "light",
+    "kb": [
+     260,
+     -120
+    ],
+    "lunge": 40,
+    "active": 0.1,
+    "weight": 1.0
+   }
+  ],
+  "flee_range": 150,
+  "max_range": 640,
+  "patrol_span": 0
+ },
+ "heavy_samurai": {
+  "name": "Samurai Pesado",
+  "archetype": "elite_samurai",
+  "skin": "elite_samurai",
+  "sheet": "elite_samurai",
+  "hp": 140,
+  "speed": 50,
+  "run_speed": 110,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.55,
+  "defense": 0.45,
+  "dodge": 0.0,
+  "armor": 0.35,
+  "poise": 30,
+  "attack_range": 90,
+  "cooldown": 1.6,
+  "xp": 70,
+  "coins": [
+   8,
+   14
+  ],
+  "attacks": [
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -110,
+     108,
+     110
+    ],
+    "damage": 24,
+    "range": 92,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   },
+   {
+    "name": "combo",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -90,
+     104,
+     74
+    ],
+    "damage": 18,
+    "range": 90,
+    "kind": "heavy",
+    "kb": [
+     300,
+     -160
+    ],
+    "lunge": 160,
+    "active": 0.12,
+    "weight": 2,
+    "sfx": "slash_heavy"
+   }
+  ],
+  "deflect": 0.3,
+  "knock_resist": 0.7,
+  "guard_limit": 4
+ },
+ "infiltrator": {
+  "name": "Ninja Infiltrado",
+  "archetype": "rival_ninja",
+  "skin": "infiltrator",
+  "sheet": "rival_ninja",
+  "hp": 60,
+  "speed": 120,
+  "run_speed": 270,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.75,
+  "defense": 0.1,
+  "dodge": 0.3,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 70,
+  "cooldown": 1.4,
+  "xp": 40,
+  "coins": [
+   3,
+   7
+  ],
+  "attacks": [
+   {
+    "name": "dual",
+    "anim": "dual_slash",
+    "rect": [
+     0,
+     -82,
+     76,
+     62
+    ],
+    "damage": 9,
+    "range": 70,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 160,
+    "active": 0.08,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ],
+  "ambush": true
+ },
+ "warrior_monk": {
+  "name": "Monge Guerreiro",
+  "archetype": "ashigaru",
+  "skin": "warrior_monk",
+  "sheet": "ashigaru",
+  "hp": 85,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.35,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 10,
+  "attack_range": 95,
+  "cooldown": 1.4,
+  "xp": 42,
+  "coins": [
+   4,
+   8
+  ],
+  "attacks": [
+   {
+    "name": "spin",
+    "anim": "staff_spin",
+    "rect": [
+     -70,
+     -92,
+     140,
+     92
+    ],
+    "damage": 8,
+    "range": 70,
+    "kind": "light",
+    "kb": [
+     160,
+     -120
+    ],
+    "lunge": 0,
+    "active": 0.08,
+    "weight": 2
+   },
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -72,
+     112,
+     28
+    ],
+    "damage": 12,
+    "range": 100,
+    "kind": "light",
+    "kb": [
+     230,
+     -60
+    ],
+    "lunge": 100,
+    "active": 0.12,
+    "weight": 3
+   }
+  ]
+ },
+ "assassin_ninja": {
+  "name": "Ninja Assassino",
+  "archetype": "shadow_assassin",
+  "skin": "assassin_ninja",
+  "sheet": "shadow_assassin",
+  "hp": 75,
+  "speed": 110,
+  "run_speed": 240,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.75,
+  "defense": 0.1,
+  "dodge": 0.35,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 84,
+  "cooldown": 1.4,
+  "xp": 55,
+  "coins": [
+   5,
+   9
+  ],
+  "attacks": [
+   {
+    "name": "combo",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -86,
+     96,
+     70
+    ],
+    "damage": 16,
+    "range": 84,
+    "kind": "heavy",
+    "kb": [
+     300,
+     -160
+    ],
+    "lunge": 160,
+    "active": 0.12,
+    "weight": 2,
+    "sfx": "slash_heavy"
+   },
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   }
+  ]
+ },
+ "twin_samurai": {
+  "name": "Samurai de Duas Lâminas",
+  "archetype": "elite_samurai",
+  "skin": "twin_samurai",
+  "sheet": "elite_samurai",
+  "hp": 150,
+  "speed": 55,
+  "run_speed": 120,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.4,
+  "dodge": 0.0,
+  "armor": 0.3,
+  "poise": 28,
+  "attack_range": 80,
+  "cooldown": 1.4,
+  "xp": 75,
+  "coins": [
+   8,
+   14
+  ],
+  "attacks": [
+   {
+    "name": "dual",
+    "anim": "dual_slash",
+    "rect": [
+     0,
+     -82,
+     76,
+     62
+    ],
+    "damage": 13,
+    "range": 70,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 160,
+    "active": 0.08,
+    "weight": 3
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -96,
+     86,
+     96
+    ],
+    "damage": 24,
+    "range": 74,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   }
+  ],
+  "knock_resist": 0.6
+ },
+ "spear_guardian": {
+  "name": "Guardião com Lança",
+  "archetype": "ashigaru",
+  "skin": "spear_guardian",
+  "sheet": "ashigaru",
+  "hp": 95,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.3,
+  "dodge": 0.0,
+  "armor": 0.25,
+  "poise": 15,
+  "attack_range": 100,
+  "cooldown": 1.4,
+  "xp": 45,
+  "coins": [
+   4,
+   8
+  ],
+  "attacks": [
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -72,
+     112,
+     28
+    ],
+    "damage": 15,
+    "range": 100,
+    "kind": "light",
+    "kb": [
+     230,
+     -60
+    ],
+    "lunge": 100,
+    "active": 0.12,
+    "weight": 3
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -96,
+     86,
+     96
+    ],
+    "damage": 20,
+    "range": 74,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   }
+  ]
+ },
+ "shadow_warrior": {
+  "name": "Guerreiro das Sombras",
+  "archetype": "shadow_assassin",
+  "skin": "shadow_warrior",
+  "sheet": "shadow_assassin",
+  "hp": 90,
+  "speed": 110,
+  "run_speed": 240,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.3,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 84,
+  "cooldown": 1.4,
+  "xp": 60,
+  "coins": [
+   5,
+   9
+  ],
+  "attacks": [
+   {
+    "name": "combo",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -86,
+     96,
+     70
+    ],
+    "damage": 16,
+    "range": 84,
+    "kind": "heavy",
+    "kb": [
+     300,
+     -160
+    ],
+    "lunge": 160,
+    "active": 0.12,
+    "weight": 2,
+    "sfx": "slash_heavy"
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ]
+ },
+ "shadow_clone": {
+  "name": "Sombra Invocada",
+  "archetype": "shadow_assassin",
+  "skin": "shadow_warrior",
+  "sheet": "shadow_assassin",
+  "hp": 30,
+  "speed": 120,
+  "run_speed": 260,
+  "sight": 340,
+  "react": 0.1,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 84,
+  "cooldown": 1.4,
+  "xp": 5,
+  "coins": [
+   0,
+   1
+  ],
+  "attacks": [
+   {
+    "name": "slash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     72,
+     62
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 10,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ]
+ },
+ "imperial_soldier": {
+  "name": "Soldado Imperial",
+  "archetype": "ashigaru",
+  "skin": "imperial_soldier",
+  "sheet": "ashigaru",
+  "hp": 85,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.7,
+  "defense": 0.3,
+  "dodge": 0.0,
+  "armor": 0.25,
+  "poise": 10,
+  "attack_range": 100,
+  "cooldown": 1.4,
+  "xp": 45,
+  "coins": [
+   4,
+   8
+  ],
+  "attacks": [
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -72,
+     112,
+     28
+    ],
+    "damage": 15,
+    "range": 100,
+    "kind": "light",
+    "kb": [
+     230,
+     -60
+    ],
+    "lunge": 100,
+    "active": 0.12,
+    "weight": 3
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -96,
+     86,
+     96
+    ],
+    "damage": 20,
+    "range": 74,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   }
+  ]
+ },
+ "elite_archer": {
+  "name": "Arqueiro de Elite",
+  "archetype": "archer",
+  "skin": "elite_archer",
+  "sheet": "archer",
+  "hp": 60,
+  "speed": 70,
+  "run_speed": 160,
+  "sight": 680,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.1,
+  "dodge": 0.0,
+  "armor": 0.2,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 1.4,
+  "xp": 45,
+  "coins": [
+   2,
+   5
+  ],
+  "attacks": [
+   {
+    "name": "shot",
+    "anim": "bow_draw",
+    "then": "bow_shoot",
+    "aim": "target",
+    "range": 640,
+    "projectile": {
+     "kind": "arrow",
+     "speed": 720,
+     "gravity": 220,
+     "damage": 12,
+     "lead": 0.6,
+     "sfx": "arrow",
+     "count": 2,
+     "spread": 0.08
+    }
+   },
+   {
+    "name": "bash",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -80,
+     56,
+     60
+    ],
+    "damage": 6,
+    "range": 60,
+    "kind": "light",
+    "kb": [
+     260,
+     -120
+    ],
+    "lunge": 40,
+    "active": 0.1,
+    "weight": 1.0
+   }
+  ],
+  "max_range": 680,
+  "patrol_span": 0
+ },
+ "master_ninja": {
+  "name": "Ninja Mestre",
+  "archetype": "rival_ninja",
+  "skin": "master_ninja",
+  "sheet": "rival_ninja",
+  "hp": 100,
+  "speed": 130,
+  "run_speed": 290,
+  "sight": 340,
+  "react": 0.3,
+  "aggression": 0.85,
+  "defense": 0.2,
+  "dodge": 0.4,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 66,
+  "cooldown": 0.9,
+  "xp": 70,
+  "coins": [
+   6,
+   10
+  ],
+  "attacks": [
+   {
+    "name": "dual",
+    "anim": "dual_slash",
+    "rect": [
+     0,
+     -82,
+     76,
+     62
+    ],
+    "damage": 12,
+    "range": 70,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 160,
+    "active": 0.08,
+    "weight": 3
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 12,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ],
+  "ambush": true
+ },
+ "legendary_samurai": {
+  "name": "Samurai Lendário",
+  "archetype": "elite_samurai",
+  "skin": "legendary_samurai",
+  "sheet": "elite_samurai",
+  "hp": 220,
+  "speed": 55,
+  "run_speed": 120,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.5,
+  "defense": 0.5,
+  "dodge": 0.0,
+  "armor": 0.4,
+  "poise": 35,
+  "attack_range": 100,
+  "cooldown": 1.4,
+  "xp": 110,
+  "coins": [
+   12,
+   18
+  ],
+  "attacks": [
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -118,
+     118,
+     118
+    ],
+    "damage": 30,
+    "range": 100,
+    "kind": "heavy",
+    "kb": [
+     320,
+     -180
+    ],
+    "lunge": 120,
+    "active": 0.12,
+    "weight": 1,
+    "sfx": "slash_heavy",
+    "speed": 0.75,
+    "telegraph": 0.4,
+    "guard_break": true
+   },
+   {
+    "name": "combo",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -96,
+     112,
+     80
+    ],
+    "damage": 22,
+    "range": 96,
+    "kind": "heavy",
+    "kb": [
+     300,
+     -160
+    ],
+    "lunge": 160,
+    "active": 0.12,
+    "weight": 2,
+    "sfx": "slash_heavy"
+   }
+  ],
+  "deflect": 0.4,
+  "knock_resist": 0.8,
+  "guard_limit": 5
+ },
+ "dark_assassin": {
+  "name": "Assassino Sombrio",
+  "archetype": "shadow_assassin",
+  "skin": "dark_assassin",
+  "sheet": "shadow_assassin",
+  "hp": 120,
+  "speed": 120,
+  "run_speed": 260,
+  "sight": 340,
+  "react": 0.6,
+  "aggression": 0.85,
+  "defense": 0.1,
+  "dodge": 0.4,
+  "armor": 0.0,
+  "poise": 0,
+  "attack_range": 84,
+  "cooldown": 1.4,
+  "xp": 90,
+  "coins": [
+   8,
+   12
+  ],
+  "attacks": [
+   {
+    "name": "combo",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -86,
+     96,
+     70
+    ],
+    "damage": 20,
+    "range": 84,
+    "kind": "heavy",
+    "kb": [
+     300,
+     -160
+    ],
+    "lunge": 160,
+    "active": 0.12,
+    "weight": 2,
+    "sfx": "slash_heavy"
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -88,
+     72,
+     76
+    ],
+    "damage": 13,
+    "range": 66,
+    "kind": "light",
+    "kb": [
+     180,
+     -80
+    ],
+    "lunge": 90,
+    "active": 0.1,
+    "weight": 2
+   }
+  ]
+ }
+}

@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="theme-color" content="#ece3ce">
+<title>SHINOBI — O Caminho das Sombras</title>
+<style>
+  html, body { margin: 0; height: 100%; background: #ece3ce; overflow: hidden; touch-action: none; -webkit-user-select: none; user-select: none; }
+  #game { display: block; position: fixed; inset: 0; }
+  #fade { position: fixed; inset: 0; background: #0d0b0a; opacity: 1; transition: opacity .38s; pointer-events: none; z-index: 50; }
+  #ui { position: fixed; inset: 0; pointer-events: none; z-index: 10; font-family: Georgia, "Palatino Linotype", serif; color: #171412; }
+  #ui > * { pointer-events: auto; }
+  #ui.menu .title { position: absolute; right: 6vw; top: 5vh; text-align: left; pointer-events: none; }
+  #ui.menu h1 { font-family: "Palatino Linotype", Georgia, serif; font-size: clamp(48px, 8vw, 96px); letter-spacing: .12em; margin: 0; font-weight: 900; text-shadow: 3px 3px 0 rgba(23,20,18,.18); }
+  #ui.menu h2 { margin: 0; color: #b3221b; font-size: clamp(14px, 2vw, 24px); letter-spacing: .2em; border-top: 4px solid #b3221b; padding-top: 6px; }
+  .seal { position: absolute; left: -70px; top: 10px; width: 52px; height: 52px; background: #b3221b; color: #ece3ce; font-size: 34px; text-align: center; line-height: 52px; outline: 2px solid #ece3ce; outline-offset: -6px; }
+  .menubox { position: absolute; right: 6vw; top: max(220px, 30vh); display: flex; flex-direction: column; gap: 10px; max-height: 65vh; overflow-y: auto; }
+  .foot { position: absolute; left: 16px; bottom: 10px; font-size: 13px; opacity: .55; pointer-events: none; }
+  button.ink { font: 20px Georgia, serif; color: #ece3ce; background: rgba(26,23,20,.9); border: none; border-bottom: 2px solid #b3221b; border-radius: 2px 12px 2px 12px; padding: 10px 22px; min-width: 260px; cursor: pointer; text-align: center; box-shadow: 0 3px 4px rgba(0,0,0,.2); transition: border-left .1s, background .1s; }
+  button.ink:hover, button.ink:focus { background: rgba(36,31,28,.95); border-left: 6px solid #b3221b; outline: none; }
+  button.ink:active { background: #8c1a12; }
+  button.ink:disabled { background: rgba(77,74,69,.55); color: #c0b8a8; border-bottom-color: #666; cursor: default; }
+  button.ink.left { text-align: left; } button.ink.buy { min-width: 150px; }
+  button.ink small { opacity: .75; font-size: 15px; }
+  .overlay { background: rgba(13,11,10,.45); display: flex; align-items: center; justify-content: center; }
+  .panel { pointer-events: auto; background: rgba(240,230,207,.97); border: 3px solid #171412; border-radius: 4px 18px 4px 18px; box-shadow: 0 10px 30px rgba(0,0,0,.35); padding: 20px 26px; max-height: 86vh; overflow-y: auto; min-width: 320px; max-width: 92vw; display: flex; flex-direction: column; gap: 10px; }
+  .panel.wide { width: 720px; }
+  .ptitle { font-family: "Palatino Linotype", Georgia, serif; font-weight: 900; font-size: 36px; letter-spacing: .05em; }
+  .ptitle .kanji { color: #b3221b; font-size: 26px; margin-right: 14px; }
+  .panel p { margin: 4px 0; line-height: 1.45; } .grey { color: #6b655d; } .coins { color: #b3221b; font-size: 22px; }
+  .panel h3 { margin: 10px 0 0; border-bottom: 2px solid rgba(23,20,18,.3); }
+  .panel hr { border: none; border-top: 2px solid rgba(23,20,18,.35); width: 100%; }
+  .row { display: flex; align-items: center; gap: 12px; } .row .info { flex: 1; } .chk { cursor: pointer; }
+  input[type=range] { width: 240px; accent-color: #b3221b; } select { font: 17px Georgia; padding: 4px; }
+  table.ctl { border-collapse: collapse; font-size: 15px; } table.ctl td, table.ctl th { padding: 3px 10px; border-bottom: 1px solid rgba(23,20,18,.2); text-align: left; }
+  .hint { font-size: 14px; color: #6b655d; } .ending { font-style: italic; max-width: 620px; }
+</style>
+</head>
+<body>
+<canvas id="game"></canvas>
+<div id="ui"></div>
+<div id="fade"></div>
+<script>
+const DATA = /*DATA*/;
+</script>
+<script>
+/*CODE*/
+</script>
+<script>setTimeout(() => (document.getElementById("fade").style.opacity = 0), 100);</script>
+</body>
+</html>
