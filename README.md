@@ -4,6 +4,8 @@
 
 **Jogo de ação e plataforma ninja em 2D, no estilo sumi-e (nanquim sobre papel de arroz), que roda direto no navegador.**
 
+Ver o jogo online: https://skylinenando.github.io/GAME-SHINOBI-O-Caminho-das-Sombras
+
 HTML5 · Canvas 2D · Web Audio · JavaScript puro · um único arquivo `index.html`, sem dependências
 
 ![Menu principal](docs/screenshots/menu.png)
