@@ -1,0 +1,582 @@
+{
+ "id": 5,
+ "name": "Fortaleza Final",
+ "subtitle": "Tempestade sob a lua vermelha",
+ "theme": "final_fortress",
+ "music": "fortress",
+ "boss_music": "final_boss",
+ "ambient": "rain",
+ "weather": "storm",
+ "width": 8200,
+ "kill_y": 420,
+ "player_start": [
+  120,
+  0
+ ],
+ "story": "Sob a tempestade e a lua vermelha, a Fortaleza Final aguarda. Ryūga, o Mestre do Dragão, traiu o próprio clã em troca de poder.",
+ "ending": "Com a queda do Mestre do Dragão, a tempestade se dissipa. Kage retorna às ruínas de sua aldeia e acende uma lanterna para cada irmão perdido. O Clã da Lua Velada não renasce em força — renasce em memória. E enquanto houver sombra, haverá Kage.",
+ "ground": [
+  [
+   0,
+   2850
+  ],
+  [
+   3050,
+   8200
+  ]
+ ],
+ "blocks": [
+  [
+   1600,
+   -330,
+   1100,
+   60,
+   "wall"
+  ],
+  [
+   4900,
+   -60,
+   200,
+   60,
+   "stone"
+  ],
+  [
+   5100,
+   -120,
+   600,
+   120,
+   "stone"
+  ],
+  [
+   5700,
+   -60,
+   200,
+   60,
+   "stone"
+  ]
+ ],
+ "platforms": [
+  [
+   1050,
+   -180,
+   190,
+   "wood"
+  ],
+  [
+   2920,
+   -70,
+   90,
+   "stone"
+  ],
+  [
+   3950,
+   -160,
+   210,
+   "wood"
+  ]
+ ],
+ "ladders": [
+  [
+   1100,
+   -180,
+   0
+  ],
+  [
+   3990,
+   -160,
+   0
+  ]
+ ],
+ "hazards": [
+  {
+   "kind": "spikes",
+   "x": 6300,
+   "y": 0,
+   "w": 110
+  },
+  {
+   "kind": "spikes",
+   "x": 2300,
+   "y": 0,
+   "w": 80
+  }
+ ],
+ "enemies": [
+  {
+   "id": "imperial_soldier",
+   "x": 700,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    550,
+    900
+   ]
+  },
+  {
+   "id": "elite_archer",
+   "x": 1150,
+   "y": -180,
+   "facing": -1,
+   "patrol": [
+    1140,
+    1160
+   ]
+  },
+  {
+   "id": "master_ninja",
+   "x": 2000,
+   "y": 0,
+   "facing": -1
+  },
+  {
+   "id": "imperial_soldier",
+   "x": 2450,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    2380,
+    2650
+   ]
+  },
+  {
+   "id": "legendary_samurai",
+   "x": 3600,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    3450,
+    3800
+   ]
+  },
+  {
+   "id": "elite_archer",
+   "x": 4060,
+   "y": -160,
+   "facing": -1,
+   "patrol": [
+    4050,
+    4070
+   ]
+  },
+  {
+   "id": "dark_assassin",
+   "x": 4500,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    4400,
+    4650
+   ]
+  },
+  {
+   "id": "imperial_soldier",
+   "x": 5400,
+   "y": -120,
+   "facing": -1,
+   "patrol": [
+    5150,
+    5650
+   ]
+  },
+  {
+   "id": "master_ninja",
+   "x": 6000,
+   "y": 0,
+   "facing": -1
+  },
+  {
+   "id": "dark_assassin",
+   "x": 6150,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    6100,
+    6250
+   ]
+  }
+ ],
+ "vantage": [
+  [
+   1150,
+   -180
+  ],
+  [
+   4060,
+   -160
+  ]
+ ],
+ "checkpoints": [
+  [
+   1500,
+   0
+  ],
+  [
+   3120,
+   0
+  ],
+  [
+   4800,
+   0
+  ],
+  [
+   6450,
+   0
+  ]
+ ],
+ "pickups": [
+  [
+   "coin",
+   1700,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   1760,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   1820,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   1880,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   1940,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2000,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2060,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2120,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2180,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2240,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2300,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2360,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2420,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2480,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2540,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2600,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   2880,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   2920,
+   -156,
+   1
+  ],
+  [
+   "coin",
+   2960,
+   -156,
+   1
+  ],
+  [
+   "coin",
+   3000,
+   -120,
+   1
+  ],
+  [
+   "coin",
+   5150,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5210,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5270,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5330,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5390,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5450,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5510,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5570,
+   -160,
+   1
+  ],
+  [
+   "coin",
+   5630,
+   -160,
+   1
+  ],
+  [
+   "onigiri",
+   2800,
+   -10
+  ],
+  [
+   "onigiri",
+   4700,
+   -10
+  ],
+  [
+   "shuriken",
+   1080,
+   -220,
+   6
+  ],
+  [
+   "elixir",
+   4000,
+   -200
+  ],
+  [
+   "scroll",
+   5400,
+   -160,
+   100
+  ],
+  [
+   "onigiri",
+   6500,
+   -10
+  ],
+  [
+   "elixir",
+   6520,
+   -10
+  ]
+ ],
+ "decor": [
+  [
+   "banner",
+   300,
+   0
+  ],
+  [
+   "brazier",
+   500,
+   0
+  ],
+  [
+   "tower",
+   1150,
+   0,
+   0.9
+  ],
+  [
+   "gate",
+   1400,
+   0,
+   1.0
+  ],
+  [
+   "brazier",
+   1800,
+   0
+  ],
+  [
+   "banner",
+   2100,
+   0
+  ],
+  [
+   "wall_window",
+   2300,
+   0
+  ],
+  [
+   "brazier",
+   2600,
+   0
+  ],
+  [
+   "dead_tree",
+   3300,
+   0
+  ],
+  [
+   "banner",
+   3800,
+   0
+  ],
+  [
+   "tower",
+   4060,
+   0,
+   0.8
+  ],
+  [
+   "brazier",
+   4400,
+   0
+  ],
+  [
+   "banner",
+   5000,
+   -60
+  ],
+  [
+   "brazier",
+   5400,
+   -120
+  ],
+  [
+   "banner",
+   5800,
+   -60
+  ],
+  [
+   "dead_tree",
+   6200,
+   0
+  ],
+  [
+   "brazier",
+   6700,
+   0
+  ],
+  [
+   "banner",
+   7000,
+   0
+  ],
+  [
+   "brazier",
+   7400,
+   0
+  ],
+  [
+   "banner",
+   7800,
+   0
+  ],
+  [
+   "gate",
+   8080,
+   0,
+   0.9
+  ]
+ ],
+ "front_decor": [
+  [
+   "grass",
+   900,
+   0
+  ],
+  [
+   "brazier",
+   3200,
+   0,
+   0.8
+  ],
+  [
+   "grass",
+   6800,
+   0
+  ]
+ ],
+ "boss": {
+  "id": "boss_dragon",
+  "x": 7600,
+  "arena": [
+   6640,
+   8160
+  ],
+  "intro": "Ryūga: \"Eu te ensinei a segurar a espada, Kage. Agora vou te ensinar a cair.\"",
+  "defeat": "Ryūga ajoelha-se: \"A sombra... superou o dragão.\""
+ },
+ "exit": [
+  7980,
+  0
+ ]
+}

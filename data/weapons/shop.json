@@ -1,0 +1,140 @@
+{
+ "items": [
+  {
+   "id": "katana_1",
+   "type": "katana",
+   "value": 1,
+   "cost": 150,
+   "name": "Lâmina Tamahagane",
+   "desc": "Aço dobrado mil vezes. Dano +25%."
+  },
+  {
+   "id": "katana_2",
+   "type": "katana",
+   "value": 2,
+   "cost": 420,
+   "requires": "katana_1",
+   "name": "Lua Crescente",
+   "desc": "Fio que corta a névoa. Dano +50%."
+  },
+  {
+   "id": "katana_3",
+   "type": "katana",
+   "value": 3,
+   "cost": 950,
+   "requires": "katana_2",
+   "name": "Kage-no-Tsurugi",
+   "desc": "A espada lendária do clã, com rastro carmesim. Dano +90%."
+  },
+  {
+   "id": "hp_up",
+   "type": "stat",
+   "cost": 120,
+   "max": 5,
+   "name": "Vigor",
+   "desc": "+20 de vida máxima."
+  },
+  {
+   "id": "energy_up",
+   "type": "stat",
+   "cost": 110,
+   "max": 5,
+   "name": "Respiração",
+   "desc": "+20 de energia máxima."
+  },
+  {
+   "id": "spin_attack",
+   "type": "skill",
+   "cost": 200,
+   "name": "Turbilhão",
+   "desc": "Golpe giratório que atinge todos ao redor (tecla O). Custa energia."
+  },
+  {
+   "id": "kunai_art",
+   "type": "skill",
+   "cost": 160,
+   "name": "Arte da Kunai",
+   "desc": "Desbloqueia a kunai: perfura um inimigo e causa dano alto. +8 kunais."
+  },
+  {
+   "id": "triple_shuriken",
+   "type": "skill",
+   "cost": 320,
+   "name": "Leque de Aço",
+   "desc": "Arremessa três shurikens em leque."
+  },
+  {
+   "id": "counter_master",
+   "type": "skill",
+   "cost": 260,
+   "name": "Espelho d'Água",
+   "desc": "Janela de contra-ataque maior e contra-ataque 40% mais forte."
+  },
+  {
+   "id": "shadow_step",
+   "type": "skill",
+   "cost": 240,
+   "name": "Passo da Sombra",
+   "desc": "Dash sem custo de energia e invulnerável."
+  },
+  {
+   "id": "stealth_master",
+   "type": "skill",
+   "cost": 220,
+   "name": "Mestre da Furtividade",
+   "desc": "Furtividade gasta menos energia e os inimigos enxergam menos."
+  },
+  {
+   "id": "outfit_carmesim",
+   "type": "outfit",
+   "skin": "kage_carmesim",
+   "cost": 300,
+   "name": "Traje Sombra Carmesim",
+   "desc": "Tecido tingido com laca vermelha. Dano +8%."
+  },
+  {
+   "id": "outfit_nevoa",
+   "type": "outfit",
+   "skin": "kage_nevoa",
+   "cost": 300,
+   "name": "Traje Névoa Cinzenta",
+   "desc": "Some na névoa: furtividade 30% mais eficiente."
+  },
+  {
+   "id": "outfit_tinta",
+   "type": "outfit",
+   "skin": "kage_tinta",
+   "cost": 500,
+   "name": "Traje Tinta Branca",
+   "desc": "O negativo da sombra. +15 de vida máxima."
+  },
+  {
+   "id": "shuriken_pack",
+   "type": "consumable",
+   "value": "shuriken",
+   "amount": 10,
+   "cost": 40,
+   "name": "Pacote de Shurikens",
+   "desc": "+10 shurikens."
+  },
+  {
+   "id": "kunai_pack",
+   "type": "consumable",
+   "value": "kunai",
+   "amount": 5,
+   "cost": 60,
+   "requires": "kunai_art",
+   "name": "Pacote de Kunais",
+   "desc": "+5 kunais."
+  },
+  {
+   "id": "elixir",
+   "type": "consumable",
+   "value": "elixir",
+   "amount": 1,
+   "cost": 80,
+   "name": "Elixir de Ginseng",
+   "desc": "Recupera 45% da vida (tecla H). Máx. 5."
+  }
+ ]
+}

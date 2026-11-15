@@ -1,0 +1,625 @@
+{
+ "boss_captain": {
+  "name": "Capitão da Guarda",
+  "archetype": "boss",
+  "skin": "boss_captain",
+  "sheet": "boss_captain",
+  "hp": 420,
+  "armor": 0.1,
+  "poise": 999,
+  "speed": 90,
+  "run_speed": 230,
+  "xp": 250,
+  "coins": [
+   40,
+   60
+  ],
+  "attacks": [
+   {
+    "name": "slash1",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -104,
+     100,
+     80
+    ],
+    "damage": 14,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "slash2",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -94,
+     150,
+     36
+    ],
+    "damage": 15,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "finisher",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -125,
+     130,
+     125
+    ],
+    "damage": 22,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy",
+    "guard_break": true,
+    "speed": 0.85
+   },
+   {
+    "name": "thrust",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -94,
+     160,
+     40
+    ],
+    "damage": 18,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 420,
+    "active": 0.12
+   }
+  ],
+  "combo": [
+   "slash1",
+   "slash2",
+   "finisher"
+  ],
+  "riposte": "slash1",
+  "minions": [
+   "spear_soldier",
+   "sword_soldier"
+  ],
+  "phases": [
+   {
+    "hp": 1.0,
+    "moves": {
+     "combo": 3,
+     "thrust": 2,
+     "leap_slam": 1,
+     "guard": 1
+    },
+    "cooldown": 1.3,
+    "range": 130
+   },
+   {
+    "hp": 0.5,
+    "moves": {
+     "combo": 3,
+     "thrust": 2,
+     "leap_slam": 2,
+     "summon": 1
+    },
+    "cooldown": 0.95,
+    "range": 130,
+    "speed_mult": 1.2,
+    "dmg_mult": 1.15,
+    "message": "O Capitão chama seus soldados!"
+   }
+  ]
+ },
+ "boss_hunter": {
+  "name": "Mestre Caçador",
+  "archetype": "boss",
+  "skin": "boss_hunter",
+  "sheet": "boss_hunter",
+  "hp": 480,
+  "armor": 0.1,
+  "poise": 999,
+  "speed": 110,
+  "run_speed": 260,
+  "xp": 320,
+  "coins": [
+   50,
+   70
+  ],
+  "acrobat": true,
+  "attacks": [
+   {
+    "name": "volley",
+    "anim": "bow_draw",
+    "then": "bow_shoot",
+    "aim": "target",
+    "projectile": {
+     "kind": "arrow",
+     "speed": 760,
+     "gravity": 200,
+     "damage": 11,
+     "lead": 0.6,
+     "count": 3,
+     "spread": 0.14,
+     "sfx": "arrow"
+    }
+   },
+   {
+    "name": "slash1",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -100,
+     80,
+     80
+    ],
+    "damage": 12,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "finisher",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -110,
+     100,
+     110
+    ],
+    "damage": 18,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy"
+   }
+  ],
+  "combo": [
+   "slash1",
+   "finisher"
+  ],
+  "riposte": "slash1",
+  "phases": [
+   {
+    "hp": 1.0,
+    "moves": {
+     "volley": 3,
+     "arrow_rain": 2,
+     "traps": 2,
+     "leap_slam": 1
+    },
+    "cooldown": 1.4,
+    "range": 380
+   },
+   {
+    "hp": 0.5,
+    "moves": {
+     "volley": 3,
+     "arrow_rain": 3,
+     "traps": 2,
+     "leap_slam": 1,
+     "combo": 1
+    },
+    "cooldown": 1.0,
+    "range": 340,
+    "speed_mult": 1.3,
+    "dmg_mult": 1.15,
+    "message": "O Caçador some na névoa... cuidado com a chuva de flechas!"
+   }
+  ]
+ },
+ "boss_general": {
+  "name": "General do Castelo",
+  "archetype": "boss",
+  "skin": "boss_general",
+  "sheet": "boss_general",
+  "hp": 620,
+  "armor": 0.3,
+  "poise": 999,
+  "speed": 80,
+  "run_speed": 210,
+  "xp": 420,
+  "coins": [
+   60,
+   90
+  ],
+  "attacks": [
+   {
+    "name": "slash1",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -120,
+     120,
+     100
+    ],
+    "damage": 18,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -130,
+     120,
+     120
+    ],
+    "damage": 18,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "finisher",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -110,
+     140,
+     90
+    ],
+    "damage": 24,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy"
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -140,
+     140,
+     140
+    ],
+    "damage": 30,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy",
+    "guard_break": true,
+    "speed": 0.75,
+    "telegraph": 0.4
+   }
+  ],
+  "combo": [
+   "slash1",
+   "slash2",
+   "finisher"
+  ],
+  "riposte": "finisher",
+  "minions": [
+   "armored_guard",
+   "elite_spearman"
+  ],
+  "phases": [
+   {
+    "hp": 1.0,
+    "moves": {
+     "combo": 3,
+     "shockwave": 2,
+     "guard": 2,
+     "dash_slash": 1
+    },
+    "cooldown": 1.3,
+    "range": 140
+   },
+   {
+    "hp": 0.5,
+    "moves": {
+     "combo": 3,
+     "shockwave": 2,
+     "dash_slash": 2,
+     "leap_slam": 1,
+     "summon": 1
+    },
+    "cooldown": 1.0,
+    "range": 140,
+    "speed_mult": 1.2,
+    "dmg_mult": 1.2,
+    "message": "O General ergue a odachi — a guarda de elite responde!"
+   }
+  ]
+ },
+ "boss_guardian": {
+  "name": "Guardião do Templo",
+  "archetype": "boss",
+  "skin": "boss_guardian",
+  "sheet": "boss_guardian",
+  "hp": 700,
+  "armor": 0.15,
+  "poise": 999,
+  "speed": 95,
+  "run_speed": 230,
+  "xp": 520,
+  "coins": [
+   70,
+   100
+  ],
+  "attacks": [
+   {
+    "name": "spin",
+    "anim": "staff_spin",
+    "rect": [
+     -110,
+     -130,
+     220,
+     130
+    ],
+    "damage": 12,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 0,
+    "active": 0.08
+   },
+   {
+    "name": "slash1",
+    "anim": "spear_thrust",
+    "rect": [
+     10,
+     -110,
+     150,
+     40
+    ],
+    "damage": 14,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "finisher",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -130,
+     130,
+     130
+    ],
+    "damage": 22,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy"
+   }
+  ],
+  "combo": [
+   "slash1",
+   "finisher"
+  ],
+  "backstab": "finisher",
+  "riposte": "slash1",
+  "minions": [
+   "shadow_clone"
+  ],
+  "phases": [
+   {
+    "hp": 1.0,
+    "moves": {
+     "staff_spin": 3,
+     "spirit_orbs": 2,
+     "teleport_strike": 2,
+     "combo": 2
+    },
+    "cooldown": 1.3,
+    "range": 150
+   },
+   {
+    "hp": 0.5,
+    "moves": {
+     "staff_spin": 2,
+     "spirit_orbs": 3,
+     "teleport_strike": 3,
+     "summon": 2,
+     "ink_pillars": 1
+    },
+    "cooldown": 1.0,
+    "range": 150,
+    "speed_mult": 1.2,
+    "dmg_mult": 1.2,
+    "message": "O Guardião invoca as sombras do templo!"
+   }
+  ]
+ },
+ "boss_dragon": {
+  "name": "Mestre do Dragão",
+  "archetype": "boss",
+  "skin": "boss_dragon",
+  "sheet": "boss_dragon",
+  "hp": 950,
+  "armor": 0.2,
+  "poise": 999,
+  "speed": 100,
+  "run_speed": 260,
+  "xp": 900,
+  "coins": [
+   120,
+   160
+  ],
+  "attacks": [
+   {
+    "name": "slash1",
+    "anim": "attack_light",
+    "rect": [
+     0,
+     -124,
+     124,
+     104
+    ],
+    "damage": 18,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "slash2",
+    "anim": "attack_light2",
+    "rect": [
+     0,
+     -134,
+     124,
+     124
+    ],
+    "damage": 18,
+    "kind": "light",
+    "kb": [
+     240,
+     -120
+    ],
+    "lunge": 140,
+    "active": 0.12
+   },
+   {
+    "name": "finisher",
+    "anim": "attack_combo",
+    "rect": [
+     0,
+     -116,
+     150,
+     96
+    ],
+    "damage": 26,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy"
+   },
+   {
+    "name": "heavy",
+    "anim": "attack_heavy",
+    "rect": [
+     0,
+     -146,
+     146,
+     146
+    ],
+    "damage": 32,
+    "kind": "heavy",
+    "kb": [
+     380,
+     -220
+    ],
+    "lunge": 140,
+    "active": 0.12,
+    "sfx": "slash_heavy",
+    "guard_break": true,
+    "speed": 0.8,
+    "telegraph": 0.4
+   }
+  ],
+  "combo": [
+   "slash1",
+   "slash2",
+   "finisher"
+  ],
+  "backstab": "finisher",
+  "riposte": "slash1",
+  "phases": [
+   {
+    "hp": 1.0,
+    "moves": {
+     "combo": 3,
+     "dash_slash": 2,
+     "shockwave": 2,
+     "guard": 1
+    },
+    "cooldown": 1.2,
+    "range": 140
+   },
+   {
+    "hp": 0.66,
+    "moves": {
+     "combo": 2,
+     "dragon_wave": 3,
+     "ink_pillars": 2,
+     "teleport_strike": 2
+    },
+    "cooldown": 1.0,
+    "range": 150,
+    "speed_mult": 1.15,
+    "dmg_mult": 1.15,
+    "message": "O Mestre do Dragão desperta o dragão de tinta!"
+   },
+   {
+    "hp": 0.33,
+    "moves": {
+     "combo": 2,
+     "dragon_dive": 3,
+     "dragon_wave": 2,
+     "ink_pillars": 2,
+     "teleport_strike": 2,
+     "dash_slash": 2
+    },
+    "cooldown": 0.8,
+    "range": 150,
+    "speed_mult": 1.3,
+    "dmg_mult": 1.3,
+    "message": "Sob a lua vermelha, o dragão revela sua fúria!"
+   }
+  ]
+ }
+}

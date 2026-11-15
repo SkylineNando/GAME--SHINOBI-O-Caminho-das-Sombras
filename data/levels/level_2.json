@@ -1,0 +1,530 @@
+{
+ "id": 2,
+ "name": "Floresta de Bambu",
+ "subtitle": "A névoa esconde lâminas",
+ "theme": "bamboo_forest",
+ "music": "bamboo",
+ "boss_music": "boss",
+ "ambient": "water",
+ "weather": "mist",
+ "width": 7200,
+ "kill_y": 420,
+ "player_start": [
+  120,
+  0
+ ],
+ "story": "Na Floresta de Bambu a névoa esconde armadilhas e olhos atentos. O Mestre Caçador rastreia Kage desde a noite do massacre.",
+ "ground": [
+  [
+   0,
+   1200
+  ],
+  [
+   1420,
+   3600
+  ],
+  [
+   4000,
+   7200
+  ]
+ ],
+ "water": [
+  [
+   1200,
+   1420
+  ],
+  [
+   3600,
+   4000
+  ]
+ ],
+ "blocks": [
+  [
+   4520,
+   -250,
+   220,
+   204,
+   "rock"
+  ]
+ ],
+ "platforms": [
+  [
+   1250,
+   -60,
+   120,
+   "bamboo"
+  ],
+  [
+   2050,
+   -90,
+   90,
+   "bamboo"
+  ],
+  [
+   2150,
+   -170,
+   170,
+   "branch"
+  ],
+  [
+   3600,
+   0,
+   400,
+   "bridge"
+  ],
+  [
+   5200,
+   -140,
+   190,
+   "bamboo"
+  ],
+  [
+   5080,
+   -70,
+   90,
+   "bamboo"
+  ]
+ ],
+ "hazards": [
+  {
+   "kind": "spikes",
+   "x": 2000,
+   "y": 0,
+   "w": 100
+  },
+  {
+   "kind": "spikes",
+   "x": 5050,
+   "y": 0,
+   "w": 90
+  },
+  {
+   "kind": "spikes",
+   "x": 3250,
+   "y": 0,
+   "w": 80
+  }
+ ],
+ "traps": [
+  {
+   "kind": "arrow_trap",
+   "x": 2480,
+   "y": 0,
+   "dir": -1,
+   "interval": 2.2
+  },
+  {
+   "kind": "arrow_trap",
+   "x": 5560,
+   "y": 0,
+   "dir": -1,
+   "interval": 1.9
+  }
+ ],
+ "enemies": [
+  {
+   "id": "camo_patrol",
+   "x": 700,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    500,
+    950
+   ]
+  },
+  {
+   "id": "camo_patrol",
+   "x": 1750,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    1550,
+    1900
+   ]
+  },
+  {
+   "id": "hidden_archer",
+   "x": 2240,
+   "y": -170,
+   "facing": -1,
+   "patrol": [
+    2230,
+    2250
+   ]
+  },
+  {
+   "id": "trapper",
+   "x": 3000,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    2850,
+    3150
+   ]
+  },
+  {
+   "id": "twin_blade_ninja",
+   "x": 3450,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    3350,
+    3560
+   ]
+  },
+  {
+   "id": "ninja_hunter",
+   "x": 4300,
+   "y": 0,
+   "facing": -1
+  },
+  {
+   "id": "camo_patrol",
+   "x": 4900,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    4800,
+    5000
+   ]
+  },
+  {
+   "id": "hidden_archer",
+   "x": 5300,
+   "y": -140,
+   "facing": -1,
+   "patrol": [
+    5290,
+    5310
+   ]
+  },
+  {
+   "id": "twin_blade_ninja",
+   "x": 5700,
+   "y": 0,
+   "facing": -1,
+   "patrol": [
+    5620,
+    5780
+   ]
+  }
+ ],
+ "vantage": [
+  [
+   2240,
+   -170
+  ],
+  [
+   5300,
+   -140
+  ]
+ ],
+ "checkpoints": [
+  [
+   1460,
+   0
+  ],
+  [
+   4060,
+   0
+  ],
+  [
+   5800,
+   0
+  ]
+ ],
+ "pickups": [
+  [
+   "coin",
+   300,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   360,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   420,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   480,
+   -40,
+   1
+  ],
+  [
+   "coin",
+   1240,
+   -100,
+   1
+  ],
+  [
+   "coin",
+   1280,
+   -136,
+   1
+  ],
+  [
+   "coin",
+   1320,
+   -136,
+   1
+  ],
+  [
+   "coin",
+   1360,
+   -100,
+   1
+  ],
+  [
+   "coin",
+   2160,
+   -210,
+   1
+  ],
+  [
+   "coin",
+   2220,
+   -210,
+   1
+  ],
+  [
+   "coin",
+   2280,
+   -210,
+   1
+  ],
+  [
+   "coin",
+   3640,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   3700,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   3760,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   3820,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   3880,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   3940,
+   -50,
+   1
+  ],
+  [
+   "coin",
+   4550,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4610,
+   -12,
+   1
+  ],
+  [
+   "coin",
+   4670,
+   -12,
+   1
+  ],
+  [
+   "shuriken",
+   1600,
+   -20,
+   5
+  ],
+  [
+   "onigiri",
+   4620,
+   -10
+  ],
+  [
+   "scroll",
+   5290,
+   -190,
+   50
+  ],
+  [
+   "elixir",
+   2290,
+   -210
+  ]
+ ],
+ "decor": [
+  [
+   "bamboo",
+   200,
+   0
+  ],
+  [
+   "statue",
+   600,
+   0,
+   0.9
+  ],
+  [
+   "bamboo",
+   900,
+   0
+  ],
+  [
+   "waterfall",
+   1310,
+   150,
+   1.0
+  ],
+  [
+   "rocks",
+   1180,
+   0
+  ],
+  [
+   "bamboo",
+   1650,
+   0
+  ],
+  [
+   "lantern",
+   1500,
+   0
+  ],
+  [
+   "bamboo",
+   2300,
+   0
+  ],
+  [
+   "bamboo",
+   2700,
+   0
+  ],
+  [
+   "dead_tree",
+   3150,
+   0
+  ],
+  [
+   "bamboo",
+   3450,
+   0
+  ],
+  [
+   "waterfall",
+   3800,
+   150,
+   1.1
+  ],
+  [
+   "bamboo",
+   4150,
+   0
+  ],
+  [
+   "rocks",
+   4620,
+   -250,
+   0.8
+  ],
+  [
+   "bamboo",
+   4950,
+   0
+  ],
+  [
+   "statue",
+   5450,
+   0,
+   0.9
+  ],
+  [
+   "bamboo",
+   5900,
+   0
+  ],
+  [
+   "lantern",
+   6050,
+   0
+  ],
+  [
+   "bamboo",
+   6400,
+   0
+  ],
+  [
+   "bamboo",
+   6800,
+   0
+  ],
+  [
+   "lantern",
+   7000,
+   0
+  ]
+ ],
+ "front_decor": [
+  [
+   "bamboo",
+   1000,
+   40,
+   1.2
+  ],
+  [
+   "grass",
+   2600,
+   0
+  ],
+  [
+   "bamboo",
+   4700,
+   40,
+   1.2
+  ],
+  [
+   "grass",
+   6200,
+   0
+  ]
+ ],
+ "boss": {
+  "id": "boss_hunter",
+  "x": 6750,
+  "arena": [
+   5960,
+   7160
+  ],
+  "intro": "\"Toda presa deixa rastros, pequeno ninja.\"",
+  "defeat": "O Caçador entrega um selo carmesim: o brasão do General do Castelo."
+ },
+ "exit": [
+  7080,
+  0
+ ]
+}
